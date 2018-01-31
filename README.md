@@ -45,3 +45,14 @@ console.run.pivotal.io
 
 
 https://papertrailapp.com/systems/mahalogs/events
+
+Microservices - 12 Factor App Methodology
+
+Eureka/Consul for discovery
+
+Hystrix > CircuitBreaker - for fall-back mechanism
+Service to service GateWay is not required, should go through Clinet Load Balancer (Ribbon)
+for external access, it has to go through GateWay (Jule/APIGEE)
+
+
+
